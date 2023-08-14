@@ -6,6 +6,6 @@ For the Human Pose Estimation, the code can be found in PoseEstimator.py. I used
 was designed for quick real time interface on low powered mobile devices. However, as discussed later in the GUI section, my project was not able to encapsulate BlazePose's potential to its fullest. For further information on 
 MediaPipe, MediaPipe Pose, and BlazePose look to below links.
 
-[**Click Here**](https://github.com/google/mediapipe) for more information on MediaPipe.
-[**Click Here**](https://github.com/google/mediapipe/blob/master/docs/solutions/pose.md) for more information on MediaPipe Pose.
-[**Click Here**](https://ai.googleblog.com/2020/08/on-device-real-time-body-pose-tracking.html) for more information on BlazePose.
+[**Click Here**](https://github.com/google/mediapipe) for more information on MediaPipe.  
+[**Click Here**](https://github.com/google/mediapipe/blob/master/docs/solutions/pose.md) for more information on MediaPipe Pose.  
+[**Click Here**](https://ai.googleblog.com/2020/08/on-device-real-time-body-pose-tracking.html) for more information on BlazePose.  
