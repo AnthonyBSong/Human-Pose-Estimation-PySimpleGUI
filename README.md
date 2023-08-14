@@ -9,4 +9,5 @@ For the Human Pose Estimation, the code can be found in PoseEstimator.py. I used
 [**Click Here**](https://github.com/google/mediapipe/blob/master/docs/solutions/pose.md) for more information on MediaPipe Pose.  
 [**Click Here**](https://ai.googleblog.com/2020/08/on-device-real-time-body-pose-tracking.html) for more information on BlazePose.  
 
+For the GUI portion, I used PySimpleGUI, tkinter, and Pillow (Image and ImageTk). The GUI has buttons that allow the user to run pose estimation on different files (images, videos, and personal computer cameras). It also has a file manager, where the user is able to select and view mp4 files or PNG/JPEG files from File Explorer, Nemo, Dolphin, Finder, etc.
 
