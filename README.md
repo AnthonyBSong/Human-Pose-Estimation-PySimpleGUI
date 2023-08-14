@@ -1,4 +1,4 @@
-**# Human-Pose-Estimation-PySimpleGUI**
+**# Human-Pose-Estimation-PySimpleGUI**  
 This is a project where I created a script for Human Pose Estimation and then embedded it into a GUI I made using PySimpleGUI. I recently finished this the scripts over the summer (summer of 2023) and I am excited to share it.
 This project was done 100% in python and so it can be rather clanky, but in the future I may try to move it to a HTML, CSS, JavaScript framework like Electron.js. 
 
