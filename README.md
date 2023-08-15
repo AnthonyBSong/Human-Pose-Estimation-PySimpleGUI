@@ -11,7 +11,7 @@ For the Human Pose Estimation, the code can be found in PoseEstimator.py. I used
 [**Click Here**](https://github.com/google/mediapipe/blob/master/docs/solutions/pose.md) for more information on MediaPipe Pose.  
 [**Click Here**](https://ai.googleblog.com/2020/08/on-device-real-time-body-pose-tracking.html) for more information on BlazePose.  
 
-**A quick peek at pose estimation on images using MediaPipe Pose**
+**A quick peek at human pose estimation on images using MediaPipe Pose**
 ![Screenshot 2023-08-14 230603](https://github.com/AnthonyBSong/Human-Pose-Estimation-PySimpleGUI/assets/62223817/f72d0b75-1046-43ea-907d-8059aeaaa02a)
 
 
@@ -21,7 +21,7 @@ For the GUI portion, I used PySimpleGUI, tkinter, and Pillow (Image and ImageTk)
 
 As for the rest of the GUI, there are PySimpleGUI buttons titled image, video, and camera that allow the user to run pose estimation on different inputs. There is a file manager, where the user is able to select and view mp4 files or PNG/JPEG files from their computer's File Explorer, Finder, Nemo, Dolphin, etc before they click the buttons to run pose estimation. Finally, there are text outputs to show the path of the file clicked in the file manager as well as directions for how to use the app.
 
-**A quick peek at the interface**
+**A quick peek at the graphic user interface**
 ![Screenshot 2023-08-14 225550](https://github.com/AnthonyBSong/Human-Pose-Estimation-PySimpleGUI/assets/62223817/b16e3a93-814a-49a1-9407-5fb4b51bcafb)
 
 Please change self.folder_path parameters in 
