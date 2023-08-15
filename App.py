@@ -7,7 +7,7 @@ import tkinter as tk
 from PoseEstimator import PoseEstimator
 
 class Application():
-    def __init__(self, GUIcolor = 'DarkAmber', folder_path = 'C:/Users/antho/CS_projects/PoseApp/'):
+    def __init__(self, GUIcolor = 'DarkAmber', folder_path = None):
         self.file = None
         self.folder_path = folder_path
 
@@ -104,5 +104,5 @@ class Application():
         window.close()
 
 if __name__ == "__main__":
-    a = Application()
+    a = Application('DarkAmber', 'C:/Users/antho/CS_projects/PoseApp/')
     a.run()
