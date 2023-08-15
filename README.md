@@ -11,6 +11,10 @@ For the Human Pose Estimation, the code can be found in PoseEstimator.py. I used
 [**Click Here**](https://github.com/google/mediapipe/blob/master/docs/solutions/pose.md) for more information on MediaPipe Pose.  
 [**Click Here**](https://ai.googleblog.com/2020/08/on-device-real-time-body-pose-tracking.html) for more information on BlazePose.  
 
+**A quick peek at pose estimation on images using MediaPipe Pose**
+![Screenshot 2023-08-14 230603](https://github.com/AnthonyBSong/Human-Pose-Estimation-PySimpleGUI/assets/62223817/f72d0b75-1046-43ea-907d-8059aeaaa02a)
+
+
 For the GUI portion, I used PySimpleGUI, tkinter, and Pillow (Image and ImageTk). The Human Pose Estimation script I wrote returned .ppm images, and I converted these .ppm images into byte data to be updated and displayed to the PySimpleGUI image element. Because the script returned image by image and there was some conversion involved, the GUI could not display camera capture and video files at the 30 FPS that it is capable of doing when using cv2.imshow(). I am trying to find a way to embed a cv2.imshow() into a PySimpleGUI element, although I have not found any support for that currently. Future plans may be to switch from PySimpleGUI image elements to PySimpleGUI slide elements as those may be better suited for displayed image after image in a fashion similar to a video.
 
 
