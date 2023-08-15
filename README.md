@@ -3,7 +3,7 @@
 This is a project where I created a script for Human Pose Estimation and then embedded it into a GUI I made using PySimpleGUI. I recently finished this the scripts over the summer (summer of 2023) and I am excited to share it.
 This project was done 100% in python and so it can be rather clanky, but in the future I may try to move it to a HTML, CSS, JavaScript framework like Electron.js. 
 
-![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+![Screenshot 2023-08-14 225550](https://github.com/AnthonyBSong/Human-Pose-Estimation-PySimpleGUI/assets/62223817/b16e3a93-814a-49a1-9407-5fb4b51bcafb)
 
 For the Human Pose Estimation, the code can be found in PoseEstimator.py. I used OpenCV and MediaPipe. MediaPipe Pose which is the package I used to locate and draw keypoints for the body uses BlazePose, a lightweight convolutional neural network architecture for human pose detection. BlazePose is a network that produces 33 body points for one person and was designed for quick real time interface on low powered mobile devices. However, as discussed later in the GUI section, my project was not able to encapsulate BlazePose's potential to its fullest. For more information on MediaPipe, MediaPipe Pose, and BlazePose look to the three links listed below.
 
